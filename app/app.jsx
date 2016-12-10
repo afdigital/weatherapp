@@ -6,6 +6,10 @@ var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
 
+// Load foundation
+require('style!css!foundation-sites/dist/css/foundation.min.css');
+$(document).foundation();
+
 // ES6 destructuring syntax used instead of the following:
 // var Route = require('react-router').Route;
 // var Router = require('react-router').Router;
