@@ -11,7 +11,7 @@ require('style!css!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
 
 // App css
-require('style!css!applicationStyles');
+require('style!css!sass!applicationStyles');
 
 // ES6 destructuring syntax used instead of the following:
 // var Route = require('react-router').Route;
